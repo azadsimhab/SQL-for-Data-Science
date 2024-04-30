@@ -1,0 +1,5 @@
+Sure, here's the SQL code to retrieve the name of the composer for track 18:
+
+SELECT Composer
+FROM tracks
+WHERE TrackId = 18;
