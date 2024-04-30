@@ -1,0 +1,5 @@
+To retrieve all data from the artists table, you can use the following SQL query:
+
+
+SELECT *
+FROM artists;
