@@ -1,0 +1,22 @@
+# https://aws.amazon.com/what-is/sql/
+# To retrieve the playlist ID and name from the playlists table and count the total number of playlists, you can use the following SQL query
+
+
+SELECT PlaylistId, Name
+FROM Playlists;
+
+
+# This query will return the playlist ID and name for all playlists in the table
+
+# To count the total number of playlists, you can use the following SQL query:
+
+
+SELECT COUNT(*) AS TotalPlaylists
+FROM Playlists;
+
+
+# Now, as for my favorite playlist from this list, I'd choose "90’s Music"
+
+SELECT PlaylistId, Name
+FROM Playlists
+WHERE Name = '90’s Music';
