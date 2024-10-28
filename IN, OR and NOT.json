@@ -1,0 +1,2 @@
+Select ProductID, UnitPrice, SupplierID
+From ProductsWhere SupplierID In (9,10,11);
